@@ -1,0 +1,36 @@
+.add-book-modal {
+    /* display: block; */
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.book-modal-content {
+    background-color: #fff;
+    position: relative;
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25em;
+    border-radius: .5em;
+}
+
+.close {
+    position: absolute;
+    top: .5em;
+    left: 90%;
+    cursor: pointer;
+}
+
+
+/*  */
